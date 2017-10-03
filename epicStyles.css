@@ -1,0 +1,130 @@
+body {
+    background: #c6e0ed;
+    font-family: Comic Sans MS, Helvetica, Arial;
+    font-size: 110%;
+    color: #0000ff;
+}
+
+p {
+    text-indent: 10px;
+}
+
+/* Formating my header as the directions require */
+h1 {
+    color: #0000ff;
+    font-size: 20px;
+    font-weight: bold;
+    background: #baffff;
+    font-style: italic;
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img {
+    border-color: skyblue;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: fuchsia;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+/*################################################################################*/
+
+/* Box will contain my website and make it look neater */
+.box {
+    height: auto; width: 1200px;
+    overflow: auto;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: auto; margin-top: auto;
+    padding: 10px;
+}
+
+#pic {
+    float: left;
+    margin: 30px;
+}
+
+/* Bio Box */
+#bio {
+    float: right;
+    width: 920px;
+    margin-top: 20px;
+    
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: skyblue;
+    border-width: thick; 
+}
+
+/* Favorite Websites Box */
+#web { 
+    width: 310px; height: 700px;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    
+    background-color: aliceblue;
+    border-width: thick;
+    border-style: solid;
+    border-color: skyblue;
+}
+
+/* Hobbies and Interests Box */
+#hob {
+    width: 310px; height: 700px;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    background-color: aliceblue;
+    border-width: thick;
+    border-style: solid;
+    border-color: skyblue;
+}
+
+/* Favorite Book Box */
+#fav {
+    width: 310px; height: 700px;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    
+    background-color: aliceblue;
+    border-width: thick;
+    border-style: solid;
+    border-color: skyblue;
+}
+
+/* Footer Box */
+#footer {
+    float: left;
+    width: 1030px; height: 200px;
+    padding: 5px;
+    margin-top: 10px;
+    
+    background-color: aliceblue;
+    border-width: thick;
+    border-style: solid;
+    border-color: skyblue;
+}
